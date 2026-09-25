@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #edf3ed;
+    color: rgb(8, 8, 8);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.logo {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+nav ul li a {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
